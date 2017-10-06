@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Animal Robot Factory</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <script src="src/kinds.js" charset="utf-8"></script>
+    <script src="src/robots.js" charset="utf-8"></script>
+    <script defer src="src/main.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="jumbotron jumbotron-fluid bg-dark text-light">
+      <div class="container">
+        <h1 class="display-3">Animal Robot Factory</h1>
+        <p class="lead">There are currently <span id="robot-count">0</span> robot friends created.</p>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>Robot Names</h2>
+          <p id="robots-list">
+            <span class="text-secondary">No robot friends created yet.</span>
+          </p>
+        </div>
+
+        <div id="robot-factory" class="col">
+          <h2>Create a New Robot Friend</h2>
+          <hr>
+          <div id="buttons"></div>
+          <br>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
