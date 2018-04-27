@@ -8,5 +8,8 @@
   },
   "devDependencies": {
     "live-server": "^1.2.0"
+  },
+  "dependencies": {
+    "npm": "^5.8.0"
   }
 }
